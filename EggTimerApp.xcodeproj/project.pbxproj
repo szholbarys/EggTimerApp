@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8215D4B2CCC088900DC270A /* EggTimerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8215D4A2CCC088900DC270A /* EggTimerAppApp.swift */; };
-		E8215D4D2CCC088900DC270A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8215D4C2CCC088900DC270A /* ContentView.swift */; };
+		E8215D4B2CCC088900DC270A /* EggTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8215D4A2CCC088900DC270A /* EggTimerApp.swift */; };
+		E8215D4D2CCC088900DC270A /* EggTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8215D4C2CCC088900DC270A /* EggTimerViewController.swift */; };
 		E8215D4F2CCC088A00DC270A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8215D4E2CCC088A00DC270A /* Assets.xcassets */; };
 		E8215D522CCC088A00DC270A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8215D512CCC088A00DC270A /* Preview Assets.xcassets */; };
+		E8215D592CCC0A8400DC270A /* EggTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8215D582CCC0A8400DC270A /* EggTimerView.swift */; };
+		E8215D5B2CCC0B8E00DC270A /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8215D5A2CCC0B8E00DC270A /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E8215D472CCC088900DC270A /* EggTimerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8215D4A2CCC088900DC270A /* EggTimerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerAppApp.swift; sourceTree = "<group>"; };
-		E8215D4C2CCC088900DC270A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E8215D4A2CCC088900DC270A /* EggTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerApp.swift; sourceTree = "<group>"; };
+		E8215D4C2CCC088900DC270A /* EggTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerViewController.swift; sourceTree = "<group>"; };
 		E8215D4E2CCC088A00DC270A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8215D512CCC088A00DC270A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8215D582CCC0A8400DC270A /* EggTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerView.swift; sourceTree = "<group>"; };
+		E8215D5A2CCC0B8E00DC270A /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = ../../../../../../../Downloads/alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		E8215D492CCC088900DC270A /* EggTimerApp */ = {
 			isa = PBXGroup;
 			children = (
-				E8215D4A2CCC088900DC270A /* EggTimerAppApp.swift */,
-				E8215D4C2CCC088900DC270A /* ContentView.swift */,
+				E8215D5A2CCC0B8E00DC270A /* alarm_sound.mp3 */,
+				E8215D4A2CCC088900DC270A /* EggTimerApp.swift */,
+				E8215D582CCC0A8400DC270A /* EggTimerView.swift */,
+				E8215D4C2CCC088900DC270A /* EggTimerViewController.swift */,
 				E8215D4E2CCC088A00DC270A /* Assets.xcassets */,
 				E8215D502CCC088A00DC270A /* Preview Content */,
 			);
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8215D522CCC088A00DC270A /* Preview Assets.xcassets in Resources */,
+				E8215D5B2CCC0B8E00DC270A /* alarm_sound.mp3 in Resources */,
 				E8215D4F2CCC088A00DC270A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8215D4D2CCC088900DC270A /* ContentView.swift in Sources */,
-				E8215D4B2CCC088900DC270A /* EggTimerAppApp.swift in Sources */,
+				E8215D4D2CCC088900DC270A /* EggTimerViewController.swift in Sources */,
+				E8215D592CCC0A8400DC270A /* EggTimerView.swift in Sources */,
+				E8215D4B2CCC088900DC270A /* EggTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
